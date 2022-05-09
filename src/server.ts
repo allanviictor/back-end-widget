@@ -15,7 +15,6 @@ var transport = nodemailer.createTransport({
     }
 });
 
-const linkTests = 'https://www.eusemfronteiras.com.br/wp-content/uploads/2018/09/42159296_s-810x538.jpg' 
 
 app.post('/feedbacks',async (req,res)=> {
 
