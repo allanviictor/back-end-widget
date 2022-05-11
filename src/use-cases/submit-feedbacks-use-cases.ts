@@ -29,7 +29,7 @@ export class SubmitfeedbacksUseCase {
                 `<h2>tipo de feedback: ${type}</h2>`,
                 `<h2>comentario: ${comment}</h2>`,
                 `<h2>foto:</h2>`,
-                `<img style="width:500px;height:500px;object-fit:cover;" src=${screenshot}>`
+                `<img style="width:500px;height:500px;object-fit:contain;" src=${screenshot}>`
             ].join('\n')
         })
 
